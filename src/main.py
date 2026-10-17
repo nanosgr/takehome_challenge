@@ -3,5 +3,5 @@ from fastapi import FastAPI
 app=FastAPI()
 
 @app.get("/")
-async def healthApp() -> None:
-    pass
+async def healthApp() -> str:
+    return "Lorem Ipsum"
