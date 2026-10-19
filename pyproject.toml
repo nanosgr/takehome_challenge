@@ -1,7 +1,7 @@
 [project]
 name = "takehome-challenge"
 version = "0.1.0"
-description = "Add your description here"
+description = "That is the takehome challenge for Yari Taft mentory"
 readme = "README.md"
 authors = [
     { name = "Sebastian Rios", email = "sebastian.g.rios@gmail.com" }
@@ -10,3 +10,6 @@ requires-python = ">=3.12"
 dependencies = [
     "fastapi[standard]>=0.143.3",
 ]
+
+[tool.fastapi]
+entrypoint = "src.main:app"
